@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./auth-form.css">
+</head>
+<body>
+    <div id="auth-form">
+        <h2> Sign Up or Sign In</h2>
+        <input type="email" placeholder="Enter Email..." id="userEmail" required> <br>
+        <input type="password" placeholder="password" id="userPassword"> <br>
+        <button id="signUpBtn"> Sign Up</button>
+        <button id="signInBtn"> Sign In</button>
+    </div>
+    <div id="secretContent">
+        <h4> Top Secret Content only with Email/Password </h4>
+        <h5 style="text-align: center; color: royalblue; text-transform: uppercase;"> Authorization </h5>
+        <button id="signOutBtn"> Sign Out</button>
+    </div>
+
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./auth-form.js"></script>
+    <!-- <script type="module" src="./db.js"></script> -->
+    <!-- <script src="txt.json"></script> -->
+   
+     <!-- <script type="module" src="./app.js">   </script> -->
+    
+</body>
+</html>
